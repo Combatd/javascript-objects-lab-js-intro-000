@@ -4,4 +4,5 @@ function updateObjectWithKeyAndValue   (object, key, value) {
   var valuePair;
   valuePair = {key : value};
   var newObj =Object.assign({}, object, valuePair);
+  return newObj;
 }
