@@ -1,1 +1,1 @@
-var recipes = Object.new();
+var recipes = Object.new({recipe: food});
